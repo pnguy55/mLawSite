@@ -1,0 +1,27 @@
+[15-Jun-2018 14:28:20] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[15-Jun-2018 14:31:18] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[15-Jun-2018 14:36:12] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[15-Jun-2018 14:39:49] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[15-Jun-2018 14:40:43] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[15-Jun-2018 14:47:20] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/murphyl5/public_html/include/quickcontact.php on line 3
+[18-Jun-2018 12:40:05 America/Denver] PHP Warning:  The use statement with non-compound name 'PHPMailer' has no effect in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 12:40:05 America/Denver] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 12:46:24 America/Denver] PHP Warning:  The use statement with non-compound name 'PHPMailer' has no effect in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 12:46:24 America/Denver] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 12:47:42 America/Denver] PHP Warning:  The use statement with non-compound name 'PHPMailer' has no effect in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 12:47:42 America/Denver] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 12:51:05 America/Denver] PHP Warning:  The use statement with non-compound name 'PHPMailer' has no effect in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 12:51:05 America/Denver] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 12:57:20 America/Denver] PHP Warning:  The use statement with non-compound name 'PHPMailer' has no effect in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 12:57:20 America/Denver] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 14:11:16 America/Chicago] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 14:11:31 America/Chicago] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[18-Jun-2018 14:51:11 America/Chicago] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[21-Jun-2018 23:20:10] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[21-Jun-2018 23:20:10] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[22-Jun-2018 09:11:14] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[22-Jun-2018 09:12:00] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/murphyl5/public_html/include/sendemail.php on line 3
+[25-Jun-2018 03:45:20 America/Denver] PHP Notice:  Undefined index: widget-subscribe-form-email in /home2/murphyl5/public_html/include/subscribe.php on line 10
+[25-Jun-2018 03:45:20 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/murphyl5/public_html/include/subscribe.php on line 14
+[25-Jun-2018 03:45:21 America/Denver] PHP Notice:  Undefined index: widget-subscribe-form-email in /home2/murphyl5/public_html/include/subscribe.php on line 10
+[25-Jun-2018 03:45:21 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/murphyl5/public_html/include/subscribe.php on line 14
