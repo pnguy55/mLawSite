@@ -2119,7 +2119,7 @@ body.top-search-open #top-account { opacity: 0; }
 	top: 0;
 	left: 0;
 	width: 100%;
-	
+
 	background-color: #FFF;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -13647,5 +13647,3 @@ body:not(.no-transition) #wrapper,
 	-webkit-text-stroke: 0px !important;
 	text-shadow: none !important;
 }
-
-

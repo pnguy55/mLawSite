@@ -8,7 +8,7 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'murphylawfirmllc@gmail.com', // Your Email Address
+				'email' => 'pnguy55@gmail.com', // Your Email Address
 				'name' => 'Peyton Murphy' // Your Name
 			);
 

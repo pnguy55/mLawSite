@@ -38,6 +38,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="stylePhi.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
@@ -47,6 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link rel="stylesheet" href="css/real-estate/css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/icons/css/font-awesome.css" type="text/css" />
 	<link rel="stylesheet" href="css/et/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
 
 	<!-- Add the slick-theme.css if you want default styling -->
 <link rel="stylesheet" type="text/css" href="slick.css"/>
@@ -148,6 +150,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								.callHeader {
 									font-size: 1.3rem !important;
 								}
+								.slider-caption.slider-caption-center{
+							    display: flex;
+							    flex-direction: column;
+							    align-items: center;
+							    justify-content: center;
+							    margin-left: 45vw;
+							    margin-top: -7vh;
+							    height: 70vh;
+							  }
+
+							  .slider-caption h2{
+							    font-size: 3rem;
+
+							  }
+
+							  .slider-caption p{
+							    font-size: 20px;
+							    margin-top: 10px;
+							  }
+
+							  .customAwardList{
+							    display: flex;
+							    justify-content: center;
+							    align-items: center;
+							    flex-direction: row;
+							    flex-wrap: nowrap;
+							    flex-shrink: 0;
+							    width: 100%;
+							  }
 							}
 							@media only screen and (max-width: 1269px) {
 
@@ -221,10 +252,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 							}
 
-							@media only screen and (max-width: 767px) {
-								.fbox-effect {
+							@media only screen and (max-width: 768px) {
+
+								.button.button-reveal.button-large {
+										padding: 0 10px;
+										margin-right: 0px !important;
+								}
+
+								.slider-caption.slider-caption-center{
+									display: flex;
+									flex-direction: column;
+									align-items: center;
+									justify-content: center;
+									margin-left: 45vw;
+									margin-top: 1.5vh;
+								}
+
+								.slider-caption h2{
+									font-size: 1.5rem!important ;
 
 								}
+
+								.slider-caption p{
+									font-size: 15px !important;
+									margin-top: 5px;
+								}
+								.button.button-reveal.button-large {
+										padding: 0 10px;
+								}
+								.button.button-border.button-large {
+										line-height: 25px;
+								}
+
+								.button.button-large {
+										height: 30px;
+								}
+								.button-reveal {
+									font-size: 13px !important;
+								}
+								.customAwardList{
+									display: flex;
+									justify-content: center;
+									align-items: center;
+									flex-direction: row;
+									flex-wrap: nowrap;
+									width: 100%;
+									margin-top: -1.5em;
+
+								}
+								.accolade{
+									max-width: 40%;
+
+								}
+								.achievements{
+									display: none;
+								}
+
+
 								.mhide {
 									display: none !important;
 								}
@@ -258,16 +342,209 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 								}
-								@media only screen and (max-width: 375px) {
-									.mobileconsult {
-										left: -20px !important;
-										/*color:blue !important;*/
+
+							@media only screen and (max-width: 600px) {
+
+								.button.button-reveal.button-large {
+										padding: 0 10px;
+										margin-right: 0px !important;
+								}
+
+								.slider-caption.slider-caption-center{
+									display: flex;
+									flex-direction: column;
+									align-items: center;
+									justify-content: center;
+									margin-left: 45vw;
+									margin-top: .5em;
+								}
+
+								.slider-caption h2{
+									font-size: 1rem!important ;
+
+								}
+
+								.slider-caption p{
+									font-size: 14px;
+									margin-top: 5px;
+								}
+								.button.button-reveal.button-large {
+										padding: 0 10px;
+								}
+								.button.button-border.button-large {
+										line-height: 25px;
+								}
+
+								.button.button-large {
+										height: 30px;
+								}
+								.button-reveal {
+									font-size: 13px !important;
+								}
+								.customAwardList{
+									display: flex;
+									justify-content: center;
+									align-items: center;
+									flex-direction: row;
+									flex-wrap: nowrap;
+									width: 100%;
+									margin-top: -1em;
+
+								}
+								.accolade{
+									max-width: 40%;
+
+								}
+
+
+								.mhide {
+									display: none !important;
+								}
+								.mhide2 {
+									display: none !important;
+								}
+								.mhidePortfolio {
+									display: none !important;
+								}
+								.mobileMenu {}
+								.feature-box {
+									/*padding-left: 20vw !important;*/
+									left: -30px;
+									}
+								.fbox-icon {
+									border: none !important;
+									top: -22px !important;
+
+									/*padding-left: 8vw !important;*/
+								}
+								.callnow {
+									min-height: 20px !important;
+								}
+								@media only screen and (max-width: 345px) {
+									.button-reveal{
+										font-size: 14px !important; margin: 4px !important; padding-left: 6px !important; padding-right: 6px !important;
+									}
+									.tagline{
+										padding-top: 10px !important; margin-top: 10px !important;
+									}
+
+
+								}
+								@media only screen and (max-width: 500px) {
+									.slider-caption.slider-caption-center{
+									  display: flex;
+									  flex-direction: column;
+									  align-items: center;
+									  justify-content: center;
+									  margin-left: 30vw;
+
+
+									}
+
+									.slider-caption h2{
+									  font-size: 1rem !important;
+
+									}
+
+									.slider-caption p{
+									  font-size: 14px;
+									  margin-top: 5px;
+									  margin-bottom: 5px;
+									}
+									.button.button-reveal.button-large {
+									    padding: 0 10px;
+									    margin-right: 3vw !important;
+									}
+									.button.button-border.button-large {
+									    line-height: 25px;
+									}
+
+									.button.button-large {
+									    height: 30px;
+									}
+									.button-reveal {
+									  font-size: 13px !important;
+									}
+
+									.customAwardList{
+									  display: flex;
+									  justify-content: center;
+									  align-items: center;
+									  flex-direction: row;
+									  flex-wrap: nowrap;
+									  width: 100%;
+									  margin-top: -1.5em;
+									}
+									.accolade{
+									  max-width: 40%;
+									}
+									.achievements{
+										display: none;
+									}
+								}
+								@media only screen and (max-width: 400px) {
+									.slider-caption.slider-caption-center{
+									  display: flex;
+									  flex-direction: column;
+									  align-items: center;
+									  justify-content: center;
+									  margin-left: 30vw;
+
+
+									}
+
+									.slider-caption h2{
+									  font-size: 1rem !important;
+
+									}
+
+									.slider-caption p{
+									  font-size: 14px;
+									  margin-top: 5px;
+									  margin-bottom: 5px;
+									}
+									.button.button-reveal.button-large {
+									    padding: 0 10px;
+									    margin-right: 3vw !important;
+									}
+									.button.button-border.button-large {
+									    line-height: 25px;
+									}
+
+									.button.button-large {
+									    height: 30px;
+									}
+									.button-reveal {
+									  font-size: 13px !important;
+									}
+
+									.customAwardList{
+									  display: flex;
+									  justify-content: center;
+									  align-items: center;
+									  flex-direction: row;
+									  flex-wrap: nowrap;
+									  width: 100%;
+									  margin-top: -1.5em;
+									}
+									.accolade{
+									  max-width: 40%;
+									}
+									.achievements{
+										display: none;
 									}
 								}
 
-								@media only screen and (max-width: 300px) {
-									.mobileconsult {
-										left: -30px !important;
+								@media only screen and (max-width: 330px) {
+									.button.button-reveal.button-large {
+									    padding: 0 10px;
+									    margin-right: 10vw !important;
+									}
+									.accolade{
+									  max-width: 40%;
+									}
+									.achievements{
+										display: none;
 									}
 								}
 
@@ -597,6 +874,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<h2 class="mhide"  data-caption-animate="fadeInUp"><a style="font-size: 16px !important;" href="contact.html" class="button button-border button-white button-light button-reveal button-large button-rounded tright nomargin"><i class="icon-angle-right"></i><span>Get Your Free Consultation</span></a></h2>
 									<br>
 
+									<ul class='achievements' style="list-style: disc !important;">
+										<li style="font-weight: 700;">OVER 100 MILLION DOLLARS SETTLED</li>
+										<li style="font-weight: 700;">MORE THAN 40 THOUSAND VICTIMS HELPED</li>
+										<li style="font-weight: 700;">placeholder</li>
+									</ul>
+
+									<div class='customAwardList'>
+										<img class='accolade' style="max-height:125px;" src="images/clients/mmdaf.png" alt="AmericanCancerSociety">
+										<img class='accolade' style="max-height:125px;" src="images/clients/BBB.png" alt="Mac Sunglasses">
+										<img class='accolade' style="max-height:125px;" src="images/clients/mmdaf-blk.png" alt="Console Activity">
+
+									</div>
+
 								</div>
 
 							</div>
@@ -662,7 +952,10 @@ h3 > a {color: black;}
 </style>
 		<!-- Content
 		============================================= -->
+
+
 		<section id="content">
+
 
 			<div style="padding-top: 40px; " class="content-wrap nobottompadding nobottommargin">
 				<!-- <div  class="container clearfix">
@@ -1058,7 +1351,7 @@ h3 > a {color: black;}
 						<h3>A <span style="color: #0686B6">Personal Commitment</span> to Community</h3>
 						<span>We are proud to be partnered with the below organizations and to take an active role in supporting the residents of our community.</span>
 					</div>
-					<div id="slicker" data-slick='{
+					<div id="slicker2" data-slick='{
   "infinite": true,
   "speed": 300,
   "slidesToShow": 1,
@@ -1067,11 +1360,11 @@ h3 > a {color: black;}
 "autoplay": true,
 "autoplaySpeed": 1500}'>
   <div><img src="logos/AmericanCancerSociety.png" alt="AmericanCancerSociety"></div>
-  <div><img src="logos/BellaBowman.jpg" alt="BellaBowman"></div>
-  <div><img src="logos/RelayForLife.jpg" alt="Mac Sunglasses"></div>
+  <div><img src="logos/BellaBowman.png" alt="BellaBowman"></div>
+  <div><img src="logos/RelayForLife.png" alt="Mac Sunglasses"></div>
   <div><img src="logos/RaceForTheCure.png" alt="Console Activity"></div>
-  <div><img src="logos/BRZoo2.jpg" alt="Backpack Contents"></div>
-  <div><img src="logos/QualityDeerManagementAssoc copy.png" alt="Sunset Bulb Glow"></div>
+  <div><img src="logos/BRZoo2.png" alt="Backpack Contents"></div>
+  <div><img src="logos/QualityDeerManagementAssoc.png" alt="Sunset Bulb Glow"></div>
 </div>
 
 
@@ -1451,6 +1744,18 @@ h3 > a {color: black;}
  						 slidesToScroll: 1,
  						 // arrows: 'false',
 					});</script>
+
+<script type="text/javascript">
+					$('#slicker2').slick({arrows:false,});
+					// $('#slickin').slick();
+					console.log("got here");
+				</script>
+				<script type="text/javascript">
+										$('#slickin').slick({
+										 slidesToShow: 1,
+				 						 slidesToScroll: 1,
+				 						 // arrows: 'false',
+									});</script>
 	<!-- <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script> -->
 
 
